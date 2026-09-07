@@ -4,6 +4,16 @@ Interactive 2D and 3D fluid simulation in C for Windows. AeroSim uses lattice
 Boltzmann solvers to visualize flow around airfoils, finite wings, and imported
 meshes, with adjustable geometry and live pressure, velocity, and vorticity views.
 
+## Demos
+
+### 2D simulation
+
+![AeroSim 2D simulation demo](2d.gif)
+
+### 3D simulation
+
+![AeroSim 3D simulation demo](3d.gif)
+
 ## Features
 
 - **2D:** D2Q9 BGK solver on a 960 × 480 grid, NACA 4-digit airfoil geometry,
