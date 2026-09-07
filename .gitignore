@@ -1,0 +1,34 @@
+# Build products
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.o
+/*.obj
+/build/
+/out/
+
+# Local editor and agent state
+.vs/
+.vscode/
+.idea/
+.codex/
+.agents/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local models without documented redistribution licenses
+/objects/*.obj
+/objects/*.mtl
+/objects/*.stl
+
+# OS files
+Thumbs.db
+.DS_Store
